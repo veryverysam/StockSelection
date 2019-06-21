@@ -15,10 +15,10 @@ Data Preprocessing:
 1.	Period for 2 quarter: 2019-03-31 and 2018-12-31
 2.	Only Stocks is included, i.e. removes all ETF, fund, Trust, Rights, Futures / Options
 3.	Adjusted last price is retrieved from 2018-12-31 from Yahoo Finance
-4.	All the key statistics are always > 0.
+4.	All the features should be available, i.e. exclude N.A. or Inf.
 Final Data Set:
 1.	10 Fund Managers
-2.	33XX Stocks
+2.	2885 Stocks
 3.	10 Fundamental Factors (Price used is the adjusted close price of 2018-12-31)
 a.	Market Capital
 b.	EPS
